@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Muvon Digital
 
-## Getting Started
+Software development arm of Muvon Energy. Building platforms for industrial pricing and education.
 
-First, run the development server:
+Website: [muvondigital.my](https://muvondigital.my)  
+Email: [hello@muvondigital.my](mailto:hello@muvondigital.my)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Products
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**SmartMetal CPQ** - AI-assisted pricing engine for steel trading and industrial supply. Document processing, intelligent material matching, multi-supplier price comparison, and price agreement generation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**StudyNest** - Learning and engagement platform for MARA and MRSM institutions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technology
 
-## Learn More
+Backend: Node.js, Express, PostgreSQL (Supabase)  
+AI/ML: Azure OpenAI, Azure Document Intelligence  
+Frontend: React, TypeScript, Next.js, Tailwind CSS  
+Infrastructure: Multi-tenant architecture, JWT authentication, connection pooling
 
-To learn more about Next.js, take a look at the following resources:
+## Approach
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Build practical tools that solve operational problems. Systems should fit existing workflows, not force new processes for the sake of technology.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Products are developed and refined through real-world use cases in manufacturing, trading, and education.
 
-## Deploy on Vercel
+## Note
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Some technology aspects are proprietary and protected due to pending trademark registration. Technical approach and capabilities are shared; specific algorithms, business logic, and implementation details remain confidential.
