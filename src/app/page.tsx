@@ -16,7 +16,7 @@ export default function HomePage() {
           {/* Hero text */}
           <section>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight mb-4">
-              Building AI powered products for{" "}
+              Building AI-powered products for{" "}
               <span className="text-indigo-300">
                 industrial pricing
               </span>{" "}
