@@ -28,10 +28,10 @@ export default function AboutPage() {
 					</div>
 				</section>
 
-				{/* Why I'm doing this */}
+				{/* The problem I'm solving */}
 				<section className="space-y-4 max-w-3xl">
 					<h2 className="text-2xl font-semibold tracking-tight text-slate-50">
-						Why I'm doing this
+						The problem I'm solving
 					</h2>
 					<div className="space-y-4 text-slate-300 text-base leading-relaxed">
 						<p>
