@@ -64,7 +64,7 @@ export default function ProductsPage() {
 								<li>Progress tracking</li>
 								<li>Students, teachers, and parents in one system</li>
 							</ul>
-							<Button variant="outline" className="border-slate-600 mt-4" asChild>
+							<Button className="mt-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white border-0 shadow-lg shadow-indigo-500/25" asChild>
 								<Link href="/products/mrsmplus">View StudyNest</Link>
 							</Button>
 						</CardContent>
