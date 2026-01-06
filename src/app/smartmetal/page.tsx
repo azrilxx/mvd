@@ -25,83 +25,23 @@ export default function SmartMetalPage() {
 				</section>
 
 				{/* How it works */}
-				<section className="space-y-4">
+				<section className="space-y-4 max-w-3xl">
 					<h2 className="text-2xl font-semibold tracking-tight text-slate-50">
 						How it works
 					</h2>
-					<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-						<Card className="glass-card">
-							<CardHeader>
-								<CardTitle className="text-lg text-slate-100">
-									Document processing
-								</CardTitle>
-							</CardHeader>
-							<CardContent>
-								<p className="text-sm text-slate-300 leading-relaxed">
-									Upload documents in any format. The system extracts line items, identifies materials, quantities, dimensions, and specifications automatically.
-								</p>
-							</CardContent>
-						</Card>
-						<Card className="glass-card">
-							<CardHeader>
-								<CardTitle className="text-lg text-slate-100">
-									Material matching
-								</CardTitle>
-							</CardHeader>
-							<CardContent>
-								<p className="text-sm text-slate-300 leading-relaxed">
-									Match extracted items to supplier catalogs with confidence scoring and material origin tracking.
-								</p>
-							</CardContent>
-						</Card>
-						<Card className="glass-card">
-							<CardHeader>
-								<CardTitle className="text-lg text-slate-100">
-									Pricing scenarios
-								</CardTitle>
-							</CardHeader>
-							<CardContent>
-								<p className="text-sm text-slate-300 leading-relaxed">
-									Generate multiple pricing options simultaneously. Compare cheapest options, balanced mixes, and premium suppliers with different lead times.
-								</p>
-							</CardContent>
-						</Card>
-						<Card className="glass-card">
-							<CardHeader>
-								<CardTitle className="text-lg text-slate-100">
-									Approval workflows
-								</CardTitle>
-							</CardHeader>
-							<CardContent>
-								<p className="text-sm text-slate-300 leading-relaxed">
-									Built in approval routing from sales through procurement to management, with audit trails for compliance.
-								</p>
-							</CardContent>
-						</Card>
-						<Card className="glass-card">
-							<CardHeader>
-								<CardTitle className="text-lg text-slate-100">
-									Output generation
-								</CardTitle>
-							</CardHeader>
-							<CardContent>
-								<p className="text-sm text-slate-300 leading-relaxed">
-									Generate structured outputs with your branding, pricing options, and delivery timelines.
-								</p>
-							</CardContent>
-						</Card>
-						<Card className="glass-card">
-							<CardHeader>
-								<CardTitle className="text-lg text-slate-100">
-									Multi supplier support
-								</CardTitle>
-							</CardHeader>
-							<CardContent>
-								<p className="text-sm text-slate-300 leading-relaxed">
-									Manage multiple supplier catalogs with origin tracking, regulatory compliance, and automated material matching.
-								</p>
-							</CardContent>
-						</Card>
+					<div className="space-y-4 text-slate-300 text-base leading-relaxed">
+						<p>
+							Upload documents in any format. The system extracts line items, identifies materials, quantities, dimensions, and specifications automatically.
+						</p>
+						<p>
+							Match extracted items to supplier catalogs with confidence scoring and material origin tracking. Generate multiple pricing options simultaneously.
+						</p>
+						<p>
+							Compare cheapest options, balanced mixes, and premium suppliers with different lead times. Built in approval routing from sales through procurement to management, with audit trails for compliance.
+						</p>
+						<p>
+							Generate structured outputs with your branding, pricing options, and delivery timelines.
+						</p>
 					</div>
 				</section>
 
@@ -118,10 +58,7 @@ export default function SmartMetalPage() {
 							I am validating workflow integration and accuracy thresholds before full commercial deployment.
 						</p>
 						<p>
-							Multi tenant architecture is deployed. Document processing is validated on multiple document types.
-						</p>
-						<p>
-							Pricing engine is tested with multiple supplier scenarios.
+							Multi tenant architecture is deployed. Document processing is validated on multiple document types. Pricing engine is tested with multiple supplier scenarios.
 						</p>
 					</div>
 				</section>
