@@ -12,16 +12,17 @@ export default function ContactPage() {
 
 	return (
 		<SiteShell>
-			{/* Intro */}
-			<section className="space-y-3">
-				<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contact</h1>
-				<p className="text-slate-300 text-sm sm:text-base max-w-3xl">
-					If you'd like to discuss a product, a pilot, or a potential collaboration, share a few details and I'll get back to you.
-				</p>
-			</section>
+			<div className="space-y-10">
+				{/* Intro */}
+				<section className="space-y-3">
+					<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contact</h1>
+					<p className="text-slate-300 text-sm sm:text-base max-w-3xl">
+						If you'd like to discuss a product, a pilot, or a potential collaboration, share a few details and I'll get back to you.
+					</p>
+				</section>
 
-			{/* Form */}
-			<section aria-labelledby="contact-form" className="space-y-4">
+				{/* Form */}
+				<section aria-labelledby="contact-form" className="space-y-6">
 				<h2 id="contact-form" className="sr-only">Contact form</h2>
 				<form onSubmit={onSubmit} className="space-y-4 max-w-2xl">
 					<div className="grid gap-4 sm:grid-cols-2">
@@ -71,13 +72,14 @@ export default function ContactPage() {
 					</div>
 				</form>
 
-				<p className="text-sm text-slate-300">
-					You can also email me directly at{" "}
-					<a href="mailto:hello@muvondigital.my" className="text-indigo-300 hover:text-indigo-200">
-						hello@muvondigital.my
-					</a>
-				</p>
-			</section>
+					<p className="text-sm text-slate-300">
+						You can also email me directly at{" "}
+						<a href="mailto:hello@muvondigital.my" className="text-indigo-300 hover:text-indigo-200">
+							hello@muvondigital.my
+						</a>
+					</p>
+				</section>
+			</div>
 		</SiteShell>
 	);
 }
