@@ -10,7 +10,7 @@ export default function AboutPage() {
 	return (
 		<SiteShell>
 			<div className="space-y-16">
-				{/* Intro */}
+				{/* About Muvon Digital */}
 				<section className="space-y-4 max-w-3xl">
 					<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-50">
 						About Muvon Digital
@@ -20,10 +20,10 @@ export default function AboutPage() {
 							Muvon Digital is the software development arm of Muvon Energy. I build software products for industrial trading and education.
 						</p>
 						<p>
-							My background is in manufacturing and trading, with experience across steel, energy, construction, and finance. That experience led me to start Muvon Energy as a trading and consultancy business. Muvon Digital is where I design, build, and operate the software products that come out of those real-world problems.
+							My background is in manufacturing and trading, with experience across steel, energy, construction, and finance. That experience pushed me to start Muvon Energy as a trading and commercial execution business.
 						</p>
 						<p>
-							The focus is straightforward. Build practical tools that solve operational issues, not abstract technology demos.
+							Muvon Digital is where I design, build, and operate the software that comes out of those real world problems. The focus is straightforward. Build practical tools that remove operational friction.
 						</p>
 					</div>
 				</section>
@@ -35,16 +35,16 @@ export default function AboutPage() {
 					</h2>
 					<div className="space-y-4 text-slate-300 text-base leading-relaxed">
 						<p>
-							Working in manufacturing and trading, I kept running into the same problems. Pricing and quotations taking too long. Manual extraction from RFQs and technical documents. Supplier matching done in spreadsheets and emails.
+							Working in manufacturing and trading, I kept seeing the same issues repeat. Pricing decisions took too long. Data was messy. Matching items and suppliers was slow and inconsistent.
 						</p>
 						<p>
-							Instead of working around these issues, I started building software to address them directly.
+							Most teams end up relying on spreadsheets, emails, and memory. It works until volume increases, timelines tighten, or the people who know the process are not available.
 						</p>
 						<p>
-							I keep things simple. If a system is hard to understand or use, it usually means it was built without enough thought. The goal is to create tools that fit how people actually work, not force new workflows for the sake of technology.
+							I started building software to make the process clearer and more repeatable. The goal is not to change how people work. It is to support how work already happens and make it easier to run.
 						</p>
 						<p>
-							This work is grounded in real usage and real constraints. The products are actively developed and refined through practical use cases.
+							I keep things simple. If a system is hard to understand or use, it usually means I did not think through the workflow enough.
 						</p>
 					</div>
 				</section>
@@ -56,13 +56,13 @@ export default function AboutPage() {
 					</h2>
 					<div className="flex flex-wrap gap-3">
 						<div className="rounded-lg border border-slate-700 bg-slate-900/50 px-4 py-2.5 text-sm font-medium text-slate-200">
-							Focused, solo development
+							Start from real problems, not features
 						</div>
 						<div className="rounded-lg border border-slate-700 bg-slate-900/50 px-4 py-2.5 text-sm font-medium text-slate-200">
-							Practical, iteration driven
+							Build small, test early, iterate
 						</div>
 						<div className="rounded-lg border border-slate-700 bg-slate-900/50 px-4 py-2.5 text-sm font-medium text-slate-200">
-							Built around real workflows
+							Design for clarity, not complexity
 						</div>
 					</div>
 				</section>
@@ -81,7 +81,7 @@ export default function AboutPage() {
 							</CardHeader>
 							<CardContent>
 								<p className="text-sm text-slate-300 leading-relaxed">
-									An industrial Configure Price Quote platform for steel traders and industrial supply companies. It automates RFQ parsing, material matching, pricing options, approval workflows, and quote generation.
+									Industrial pricing and decision workflow platform for material trading and procurement teams. Built to handle complex specifications, supplier inputs, pricing scenarios, approvals, and traceability, with structured outputs at the end of the process.
 								</p>
 							</CardContent>
 						</Card>
@@ -93,7 +93,7 @@ export default function AboutPage() {
 							</CardHeader>
 							<CardContent>
 								<p className="text-sm text-slate-300 leading-relaxed">
-									An education platform focused on structured learning and program delivery for Malaysian technical and academic institutions.
+									Digital learning companion built for MRSM students and schools. Designed to support structured study, daily revision, and academic organisation in a simple, practical way.
 								</p>
 							</CardContent>
 						</Card>
