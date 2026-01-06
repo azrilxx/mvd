@@ -6,11 +6,12 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
+import { SiteShell } from "@/components/site-shell";
 
 export default function ProductsPage() {
 	return (
-		<main className="min-h-screen bg-slate-950 text-slate-50">
-			<div className="mx-auto max-w-6xl px-4 py-10 space-y-10">
+		<SiteShell>
+			<div className="space-y-10">
 				<header className="space-y-2">
 					<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">
 						Our Products
@@ -78,7 +79,7 @@ export default function ProductsPage() {
 					</Button>
 				</section>
 			</div>
-		</main>
+		</SiteShell>
 	);
 }
 

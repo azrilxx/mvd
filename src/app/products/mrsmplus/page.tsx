@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { SiteShell } from "@/components/site-shell";
 
 export default function MrsmPlusPage() {
 	return (
-		<main className="min-h-screen bg-slate-950 text-slate-50">
-			<div className="mx-auto max-w-6xl px-4 py-10 space-y-10">
+		<SiteShell>
+			<div className="space-y-10">
 				{/* top back link */}
 				<nav>
 					<Link
@@ -149,7 +150,7 @@ export default function MrsmPlusPage() {
 					</div>
 				</section>
 			</div>
-		</main>
+		</SiteShell>
 	);
 }
 

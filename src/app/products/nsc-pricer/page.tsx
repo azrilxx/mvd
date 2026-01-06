@@ -6,11 +6,12 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
+import { SiteShell } from "@/components/site-shell";
 
 export default function NSCPricerPage() {
 	return (
-		<main className="min-h-screen bg-slate-950 text-slate-50">
-			<div className="mx-auto max-w-6xl px-4 py-10 space-y-10">
+		<SiteShell>
+			<div className="space-y-10">
 				<nav>
 					<Link
 						href="/products"
@@ -153,7 +154,7 @@ export default function NSCPricerPage() {
 					</ul>
 				</section>
 			</div>
-		</main>
+		</SiteShell>
 	);
 }
 
