@@ -10,9 +10,9 @@ import { SiteShell } from "@/components/site-shell";
 export default function HomePage() {
   return (
     <SiteShell>
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         {/* hero + products */}
-        <div className="grid gap-10 md:grid-cols-[3fr_2fr] items-center mb-16">
+        <div className="grid gap-10 md:grid-cols-[3fr_2fr] items-start mb-16">
           {/* Hero text */}
           <section>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight mb-4">
@@ -25,8 +25,8 @@ export default function HomePage() {
                 education ecosystems
               </span>
             </h1>
-            <p className="max-w-xl text-base text-slate-300 mb-6 leading-relaxed">
-              Muvon Digital is the software development arm of Muvon Energy. I build focused software products like SmartMetal and StudyNest to solve real problems in industrial pricing and education.
+            <p className="max-w-xl text-base text-slate-300 mb-8 leading-relaxed">
+              Muvon Digital is the software development arm of Muvon Energy. We build focused software products like SmartMetal and StudyNest to solve real problems in industrial pricing and education.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -43,11 +43,11 @@ export default function HomePage() {
           <section id="products" className="space-y-4">
             <Card className="glass-card">
               <CardHeader>
-                <CardTitle className="text-base text-slate-100">
+                <CardTitle className="text-lg font-semibold text-slate-100">
                   SmartMetal
                 </CardTitle>
               </CardHeader>
-              <CardContent className="text-sm text-slate-300 space-y-2">
+              <CardContent className="text-sm text-slate-300 space-y-3">
                 <p>
                   CPQ platform for steel traders and industrial supply companies. It automates commercial request processing, supplier matching, and pricing option generation.
                 </p>
@@ -70,11 +70,11 @@ export default function HomePage() {
 
             <Card className="glass-card">
               <CardHeader>
-                <CardTitle className="text-base text-slate-100">
+                <CardTitle className="text-lg font-semibold text-slate-100">
                   StudyNest
                 </CardTitle>
               </CardHeader>
-              <CardContent className="text-sm text-slate-300 space-y-2">
+              <CardContent className="text-sm text-slate-300 space-y-3">
                 <p>
                   Learning platform for MARA and MRSM schools. Designed to support assignments, progress tracking, and communication across students, teachers, and parents.
                 </p>
