@@ -16,7 +16,7 @@ export default function ContactPage() {
 			<section className="space-y-3">
 				<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contact</h1>
 				<p className="text-slate-300 text-sm sm:text-base max-w-3xl">
-					If you’d like to discuss a potential collaboration or learn more about our products, share a few details and we’ll get back to you.
+					If you'd like to discuss a product, a pilot, or a potential collaboration, share a few details and I'll get back to you.
 				</p>
 			</section>
 
@@ -72,11 +72,10 @@ export default function ContactPage() {
 				</form>
 
 				<p className="text-sm text-slate-300">
-					You can also email us directly at{" "}
+					You can also email me directly at{" "}
 					<a href="mailto:hello@muvondigital.my" className="text-indigo-300 hover:text-indigo-200">
 						hello@muvondigital.my
 					</a>
-					.
 				</p>
 			</section>
 		</SiteShell>
