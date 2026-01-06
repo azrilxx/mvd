@@ -115,7 +115,13 @@ export default function SmartMetalPage() {
 							SmartMetal is currently in validation with NSC Sinergi, a Malaysian steel trader. The platform processes real world documents and handles multi supplier pricing scenarios.
 						</p>
 						<p>
-							I am validating workflow integration and accuracy thresholds before full commercial deployment. Multi tenant architecture is deployed. Document processing is validated on multiple document types. Pricing engine is tested with multiple supplier scenarios.
+							I am validating workflow integration and accuracy thresholds before full commercial deployment.
+						</p>
+						<p>
+							Multi tenant architecture is deployed. Document processing is validated on multiple document types.
+						</p>
+						<p>
+							Pricing engine is tested with multiple supplier scenarios.
 						</p>
 					</div>
 				</section>
@@ -129,9 +135,11 @@ export default function SmartMetalPage() {
 						<p>
 							If you would like to see how SmartMetal works or discuss a pilot, share a few details and I will get back to you.
 						</p>
-						<Button asChild className="mt-4">
-							<Link href="/contact">Contact</Link>
-						</Button>
+						<div className="pt-2">
+							<Button asChild>
+								<Link href="/contact">Contact</Link>
+							</Button>
+						</div>
 					</div>
 				</section>
 			</div>
