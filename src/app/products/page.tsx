@@ -14,73 +14,69 @@ export default function ProductsPage() {
 			<div className="space-y-10">
 				<header className="space-y-2">
 					<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">
-						Our Products
+						Products
 					</h1>
 					<p className="text-slate-300 text-sm sm:text-base">
-						Focused, AI-powered products for pricing and education operations.
+						Two software products focused on industrial pricing and education.
 					</p>
 				</header>
 
-				<section className="grid gap-6 md:grid-cols-2">
-					<Card className="bg-slate-900/60 border-slate-700">
+				<div className="border-t border-slate-800 pt-6 space-y-8">
+					<Card className="glass-card">
 						<CardHeader>
-							<p className="text-xs uppercase tracking-wider text-indigo-300">
-								For steel and industrial supply
+							<p className="text-xs uppercase tracking-wider text-indigo-300 mb-2">
+								FOR STEEL AND INDUSTRIAL SUPPLY
 							</p>
 							<CardTitle className="text-xl sm:text-2xl text-slate-100">
-								NSC Pricer
+								SmartMetal
 							</CardTitle>
 						</CardHeader>
 						<CardContent className="text-sm text-slate-300 space-y-4">
 							<p>
-								AI-assisted pricing engine that centralises RFQs, specs, pricing
-								rules and approvals.
+								Industrial Configure Price Quote platform for steel traders and industrial supply companies. It automates RFQ processing, supplier matching, and pricing option generation.
 							</p>
 							<ul className="list-disc list-inside space-y-1">
-								<li>RFQ workspace</li>
-								<li>Catalogue &amp; spec matching</li>
-								<li>Configurable pricing rules</li>
+								<li>Extracts line items from RFQs and technical documents</li>
+								<li>Matches materials to supplier catalogs</li>
+								<li>Generates multiple pricing options for comparison</li>
 							</ul>
-							<Button asChild>
-								<Link href="/products/nsc-pricer">Explore NSC Pricer</Link>
+							<Button asChild className="mt-4">
+								<Link href="/smartmetal">Explore SmartMetal</Link>
 							</Button>
 						</CardContent>
 					</Card>
 
-					<Card className="bg-slate-900/40 border-slate-800">
+					<Card className="glass-card">
 						<CardHeader>
-							<p className="text-xs uppercase tracking-wider text-indigo-300">
-								For MARA &amp; MRSM institutions
+							<p className="text-xs uppercase tracking-wider text-indigo-300 mb-2">
+								FOR MARA AND MRSM INSTITUTIONS
 							</p>
 							<CardTitle className="text-xl sm:text-2xl text-slate-100">
-								MRSM+
+								StudyNest
 							</CardTitle>
 						</CardHeader>
 						<CardContent className="text-sm text-slate-300 space-y-4">
-							<p>Digital companion for learning and engagement.</p>
+							<p>
+								Learning platform for MARA and MRSM institutions. Designed to support assignments, progress tracking, and communication across students, teachers, and parents.
+							</p>
 							<ul className="list-disc list-inside space-y-1">
-								<li>Assignments</li>
-								<li>Tracking</li>
-								<li>Touchpoints</li>
+								<li>Digital assignments</li>
+								<li>Progress tracking</li>
+								<li>Students, teachers, and parents in one system</li>
 							</ul>
-							<Button variant="outline" className="border-slate-600" asChild>
-								<Link href="/products/mrsmplus">View MRSM+</Link>
+							<Button variant="outline" className="border-slate-600 mt-4" asChild>
+								<Link href="/products/mrsmplus">View StudyNest</Link>
 							</Button>
 						</CardContent>
 					</Card>
-				</section>
+				</div>
 
-				<section className="border-t border-slate-800 pt-6 flex items-center justify-between flex-col gap-3 sm:flex-row">
-					<p className="text-slate-300 text-sm">
-						Interested in a walkthrough or pilot?
+				<section className="border-t border-slate-800 pt-6">
+					<p className="text-slate-300 text-sm mb-4">
+						Interested in a demo or pilot?
 					</p>
-					<Button asChild>
-						<a href="mailto:hello@muvondigital.my">Work with us</a>
-					</Button>
 				</section>
 			</div>
 		</SiteShell>
 	);
 }
-
-
