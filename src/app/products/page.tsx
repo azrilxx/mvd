@@ -21,7 +21,7 @@ export default function ProductsPage() {
 					</p>
 				</header>
 
-				<div className="border-t border-slate-800 pt-6 space-y-8">
+				<div className="space-y-8">
 					<Card className="glass-card">
 						<CardHeader>
 							<p className="text-xs uppercase tracking-wider text-indigo-300 mb-2">
@@ -71,7 +71,7 @@ export default function ProductsPage() {
 					</Card>
 				</div>
 
-				<section className="border-t border-slate-800 pt-6">
+				<section className="pt-6">
 					<p className="text-slate-300 text-sm mb-4">
 						Interested in a demo or pilot?
 					</p>
