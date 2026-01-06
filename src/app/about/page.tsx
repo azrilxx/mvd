@@ -1,15 +1,21 @@
 import { SiteShell } from "@/components/site-shell";
+import {
+	Card,
+	CardContent,
+	CardHeader,
+	CardTitle,
+} from "@/components/ui/card";
 
 export default function AboutPage() {
 	return (
 		<SiteShell>
-			<div className="space-y-10">
+			<div className="space-y-16">
 				{/* Intro */}
-				<section className="space-y-3">
-					<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">
+				<section className="space-y-4 max-w-3xl">
+					<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-50">
 						About Muvon Digital
 					</h1>
-					<div className="space-y-3 text-slate-300 text-sm sm:text-base max-w-3xl">
+					<div className="space-y-4 text-slate-300 text-base leading-relaxed">
 						<p>
 							Muvon Digital is the software development arm of Muvon Energy. I build software products for industrial trading and education.
 						</p>
@@ -23,9 +29,11 @@ export default function AboutPage() {
 				</section>
 
 				{/* Why I'm doing this */}
-				<section className="space-y-3">
-					<h2 className="text-2xl font-semibold tracking-tight">Why I'm doing this</h2>
-					<div className="space-y-3 text-slate-300 text-sm sm:text-base max-w-3xl">
+				<section className="space-y-4 max-w-3xl">
+					<h2 className="text-2xl font-semibold tracking-tight text-slate-50">
+						Why I'm doing this
+					</h2>
+					<div className="space-y-4 text-slate-300 text-base leading-relaxed">
 						<p>
 							Working in manufacturing and trading, I kept running into the same problems. Pricing and quotations taking too long. Manual extraction from RFQs and technical documents. Supplier matching done in spreadsheets and emails.
 						</p>
@@ -42,37 +50,53 @@ export default function AboutPage() {
 				</section>
 
 				{/* How I work */}
-				<section className="space-y-3">
-					<h2 className="text-2xl font-semibold tracking-tight">How I work</h2>
-					<ul className="grid gap-3 text-sm text-slate-300 sm:grid-cols-3">
-						<li className="rounded-md border border-slate-800 bg-slate-900/40 px-3 py-2">
+				<section className="space-y-4">
+					<h2 className="text-2xl font-semibold tracking-tight text-slate-50">
+						How I work
+					</h2>
+					<div className="flex flex-wrap gap-3">
+						<div className="rounded-lg border border-slate-700 bg-slate-900/50 px-4 py-2.5 text-sm font-medium text-slate-200">
 							Focused, solo development
-						</li>
-						<li className="rounded-md border border-slate-800 bg-slate-900/40 px-3 py-2">
+						</div>
+						<div className="rounded-lg border border-slate-700 bg-slate-900/50 px-4 py-2.5 text-sm font-medium text-slate-200">
 							Practical, iteration driven
-						</li>
-						<li className="rounded-md border border-slate-800 bg-slate-900/40 px-3 py-2">
+						</div>
+						<div className="rounded-lg border border-slate-700 bg-slate-900/50 px-4 py-2.5 text-sm font-medium text-slate-200">
 							Built around real workflows
-						</li>
-					</ul>
+						</div>
+					</div>
 				</section>
 
 				{/* What I'm building */}
-				<section className="space-y-3">
-					<h2 className="text-2xl font-semibold tracking-tight">What I'm building</h2>
-					<div className="space-y-4 max-w-3xl">
-						<div className="rounded-md border border-slate-800 bg-slate-900/60 px-4 py-3">
-							<h3 className="font-semibold text-slate-100 mb-2">SmartMetal</h3>
-							<p className="text-sm text-slate-300">
-								An industrial Configure Price Quote platform for steel traders and industrial supply companies. It automates RFQ parsing, material matching, pricing options, approval workflows, and quote generation.
-							</p>
-						</div>
-						<div className="rounded-md border border-slate-800 bg-slate-900/60 px-4 py-3">
-							<h3 className="font-semibold text-slate-100 mb-2">StudyNest</h3>
-							<p className="text-sm text-slate-300">
-								An education platform focused on structured learning and program delivery for Malaysian technical and academic institutions.
-							</p>
-						</div>
+				<section className="space-y-4">
+					<h2 className="text-2xl font-semibold tracking-tight text-slate-50">
+						What I'm building
+					</h2>
+					<div className="grid gap-6 sm:grid-cols-2 max-w-4xl">
+						<Card className="glass-card">
+							<CardHeader>
+								<CardTitle className="text-xl text-slate-100">
+									SmartMetal
+								</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<p className="text-sm text-slate-300 leading-relaxed">
+									An industrial Configure Price Quote platform for steel traders and industrial supply companies. It automates RFQ parsing, material matching, pricing options, approval workflows, and quote generation.
+								</p>
+							</CardContent>
+						</Card>
+						<Card className="glass-card">
+							<CardHeader>
+								<CardTitle className="text-xl text-slate-100">
+									StudyNest
+								</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<p className="text-sm text-slate-300 leading-relaxed">
+									An education platform focused on structured learning and program delivery for Malaysian technical and academic institutions.
+								</p>
+							</CardContent>
+						</Card>
 					</div>
 				</section>
 			</div>
