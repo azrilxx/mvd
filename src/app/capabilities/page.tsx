@@ -4,86 +4,119 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export default function CapabilitiesPage() {
 	return (
 		<SiteShell>
-			{/* Hero */}
-			<section className="space-y-3">
-				<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Capabilities</h1>
-				<p className="text-slate-300 text-sm sm:text-base max-w-3xl">
-					From product discovery to AI-enabled delivery, Muvon Digital helps turn complex ideas into working software.
-				</p>
-			</section>
+			<div className="space-y-16">
+				{/* Hero */}
+				<section className="space-y-4 max-w-3xl">
+					<h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-50">
+						Capabilities
+					</h1>
+					<div className="space-y-4 text-slate-300 text-base leading-relaxed">
+						<p>
+							Muvon Digital exists to build and operate real software products.
+							These capabilities describe how products like SmartMetal and StudyNest are actually designed, built, and improved.
+							They are not offered as standalone services.
+						</p>
+					</div>
+				</section>
 
-			{/* Core capability areas */}
-			<section className="space-y-4">
-				<h2 className="text-2xl font-semibold tracking-tight">Core capability areas</h2>
-				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-					<Card className="bg-slate-900/60 border-slate-700">
-						<CardHeader>
-							<CardTitle className="text-base text-slate-100">Product discovery &amp; strategy</CardTitle>
-						</CardHeader>
-						<CardContent className="text-sm text-slate-300">
-							Clarifying problems, mapping stakeholders, and defining realistic scopes for digital initiatives.
-						</CardContent>
-					</Card>
-					<Card className="bg-slate-900/60 border-slate-700">
-						<CardHeader>
-							<CardTitle className="text-base text-slate-100">UX, interface &amp; workflow design</CardTitle>
-						</CardHeader>
-						<CardContent className="text-sm text-slate-300">
-							Designing clear user flows, low- and high-fidelity interfaces, and interaction patterns that fit how people actually work.
-						</CardContent>
-					</Card>
-					<Card className="bg-slate-900/60 border-slate-700">
-						<CardHeader>
-							<CardTitle className="text-base text-slate-100">Full-stack engineering</CardTitle>
-						</CardHeader>
-						<CardContent className="text-sm text-slate-300">
-							Building cloud-native applications using modern frameworks with maintainable back-end services.
-						</CardContent>
-					</Card>
-					<Card className="bg-slate-900/60 border-slate-700">
-						<CardHeader>
-							<CardTitle className="text-base text-slate-100">Data &amp; integrations</CardTitle>
-						</CardHeader>
-						<CardContent className="text-sm text-slate-300">
-							Integrating with APIs, working with relational databases, and structuring data for search and analysis.
-						</CardContent>
-					</Card>
-					<Card className="bg-slate-900/60 border-slate-700">
-						<CardHeader>
-							<CardTitle className="text-base text-slate-100">AI &amp; automation integration</CardTitle>
-						</CardHeader>
-						<CardContent className="text-sm text-slate-300">
-							Applying large language models and automation to augment decision-making in pricing and learning contexts.
-						</CardContent>
-					</Card>
-					<Card className="bg-slate-900/60 border-slate-700">
-						<CardHeader>
-							<CardTitle className="text-base text-slate-100">Delivery &amp; iteration</CardTitle>
-						</CardHeader>
-						<CardContent className="text-sm text-slate-300">
-							Shipping usable versions quickly, gathering feedback, and improving the product in measured steps.
-						</CardContent>
-					</Card>
-				</div>
-			</section>
+				{/* What I am good at */}
+				<section className="space-y-4">
+					<h2 className="text-2xl font-semibold tracking-tight text-slate-50">
+						What I am good at
+					</h2>
+					<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+						<Card className="glass-card">
+							<CardHeader>
+								<CardTitle className="text-lg text-slate-100">
+									Problem definition and scope control
+								</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<p className="text-sm text-slate-300 leading-relaxed">
+									I start from real operational problems and define clear boundaries before building anything. This keeps products focused, usable, and aligned with how work already happens on the ground.
+								</p>
+							</CardContent>
+						</Card>
+						<Card className="glass-card">
+							<CardHeader>
+								<CardTitle className="text-lg text-slate-100">
+									Workflow and interface design
+								</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<p className="text-sm text-slate-300 leading-relaxed">
+									I design workflows and interfaces that reflect real decision making, approvals, and handoffs. The goal is clarity and predictability, not feature density.
+								</p>
+							</CardContent>
+						</Card>
+						<Card className="glass-card">
+							<CardHeader>
+								<CardTitle className="text-lg text-slate-100">
+									Full stack product engineering
+								</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<p className="text-sm text-slate-300 leading-relaxed">
+									I design and build complete systems including front end, back end, data models, and infrastructure. Products are built to be maintainable and extensible over time.
+								</p>
+							</CardContent>
+						</Card>
+						<Card className="glass-card">
+							<CardHeader>
+								<CardTitle className="text-lg text-slate-100">
+									Data structuring and system integration
+								</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<p className="text-sm text-slate-300 leading-relaxed">
+									I work with messy, inconsistent data and turn it into structured systems. This includes parsing documents, normalising inputs, and integrating with existing databases and tools.
+								</p>
+							</CardContent>
+						</Card>
+						<Card className="glass-card">
+							<CardHeader>
+								<CardTitle className="text-lg text-slate-100">
+									Automation where it actually helps
+								</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<p className="text-sm text-slate-300 leading-relaxed">
+									Automation is applied only where it reduces manual effort or error. If automation adds complexity or hides important decisions, it is not used.
+								</p>
+							</CardContent>
+						</Card>
+						<Card className="glass-card">
+							<CardHeader>
+								<CardTitle className="text-lg text-slate-100">
+									Iteration through real usage
+								</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<p className="text-sm text-slate-300 leading-relaxed">
+									Products are refined through real usage, not theoretical requirements. Feedback comes from actual workflows, edge cases, and operational constraints.
+								</p>
+							</CardContent>
+						</Card>
+					</div>
+				</section>
 
-			{/* How we engage */}
-			<section className="space-y-4">
-				<h2 className="text-2xl font-semibold tracking-tight">How we typically engage</h2>
-				<ol className="grid gap-3 text-sm text-slate-300 sm:grid-cols-3">
-					<li className="rounded-md border border-slate-800 bg-slate-900/40 px-3 py-2">
-						<span className="font-medium text-slate-200">Understand</span> — workshops and discovery sessions to frame the problem.
-					</li>
-					<li className="rounded-md border border-slate-800 bg-slate-900/40 px-3 py-2">
-						<span className="font-medium text-slate-200">Prototype &amp; validate</span> — design and build a focused version to test with real users.
-					</li>
-					<li className="rounded-md border border-slate-800 bg-slate-900/40 px-3 py-2">
-						<span className="font-medium text-slate-200">Build &amp; refine</span> — turn validated flows into production-ready software and evolve it over time.
-					</li>
-				</ol>
-			</section>
+				{/* How products are built here */}
+				<section className="space-y-4 max-w-3xl">
+					<h2 className="text-2xl font-semibold tracking-tight text-slate-50">
+						How products are built here
+					</h2>
+					<div className="space-y-4 text-slate-300 text-base leading-relaxed">
+						<p>
+							Products at Muvon Digital are built in small, controlled increments.
+							Each feature exists because it solves a specific problem observed in practice.
+							There is no attempt to generalise prematurely or chase abstract frameworks.
+						</p>
+						<p>
+							The focus is always on removing friction, improving clarity, and making work easier to repeat at scale.
+						</p>
+					</div>
+				</section>
+			</div>
 		</SiteShell>
 	);
 }
-
-
