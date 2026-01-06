@@ -50,19 +50,19 @@ export default function SmartMetalPage() {
 							</CardHeader>
 							<CardContent>
 								<p className="text-sm text-slate-300 leading-relaxed">
-									Convert unstructured material lists into consistent line items. Capture quantities, dimensions, standards, and notes in a way that pricing teams can review and adjust.
+									Turn raw material lists into consistent line items. Capture quantities, dimensions, standards, and notes in a format the team can review and adjust.
 								</p>
 							</CardContent>
 						</Card>
 						<Card className="glass-card">
 							<CardHeader>
 								<CardTitle className="text-lg text-slate-100">
-									Supplier matching
+									Supplier selection
 								</CardTitle>
 							</CardHeader>
 							<CardContent>
 								<p className="text-sm text-slate-300 leading-relaxed">
-									Match each line item to supplier catalogs and available sources. Keep track of selected suppliers, material origin, and the basis for each match.
+									Select suppliers and map each line item to the relevant catalog references. Keep track of material origin and the basis used for each selection.
 								</p>
 							</CardContent>
 						</Card>
@@ -74,7 +74,7 @@ export default function SmartMetalPage() {
 							</CardHeader>
 							<CardContent>
 								<p className="text-sm text-slate-300 leading-relaxed">
-									Build multiple pricing scenarios to compare trade offs. Adjust cost inputs, margin, lead time, and supplier mix to arrive at a pricing position you can defend.
+									Build multiple pricing scenarios to compare trade offs. Adjust cost inputs, margin, lead time, and supplier mix to arrive at a pricing position you can explain.
 								</p>
 							</CardContent>
 						</Card>
@@ -86,7 +86,7 @@ export default function SmartMetalPage() {
 							</CardHeader>
 							<CardContent>
 								<p className="text-sm text-slate-300 leading-relaxed">
-									Route decisions for review across commercial and management roles. Keep a record of what changed, who approved, and what basis was used for the final decision.
+									Route decisions for review across commercial and management roles. Record what changed, who approved, and the final basis for the decision.
 								</p>
 							</CardContent>
 						</Card>
